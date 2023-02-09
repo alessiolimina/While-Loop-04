@@ -32,7 +32,7 @@ public class Start {
          * Program generates a random number
          * User types a user number
          * Program does a Do/While Loop until the user number is equal to the random number
-         * Ends the program
+         * The program ends
          */
 
         number = randomNumber.nextInt(1, 10);

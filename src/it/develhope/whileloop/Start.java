@@ -29,17 +29,17 @@ public class Start {
         System.out.println("Welcome! Try to guess the number! Type a number: ");
 
         /**
-         * Generating a random number
-         * Typing a user number
-         * Doing a Do/While Loop until the user number is equal to the random number
-         * Ending the program
+         * Program generates a random number
+         * User types a user number
+         * Program does a Do/While Loop until the user number is equal to the random number
+         * Ends the program
          */
 
         number = randomNumber.nextInt(1, 10);
         do {userNumber = input.nextInt();
         } while (userNumber != number);
 
-        System.out.println("Congratulations! You did it! ");
+        System.out.println("Congratulations! You did it!");
 
         System.out.println("------------------------------------");
     }
